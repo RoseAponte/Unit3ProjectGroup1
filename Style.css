@@ -25,3 +25,6 @@ body > header > nav > ul > li > a:hover {
 	color: white;
 	background-color: #4b4b4b;
 }
+body > section > header > h2 {
+    background-color: red;
+}

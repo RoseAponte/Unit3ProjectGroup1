@@ -45,3 +45,7 @@ body > section > h4 > a {
 	background-color: red;
 	color: white;
 }
+div.rotate {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}

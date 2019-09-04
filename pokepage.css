@@ -29,3 +29,9 @@ body > section > header > h2 {
 	color: white;
 	background-color: red;
 }
+body > section > header > p > a{
+	color: black;
+}
+body > section > header > p > a:visited{
+	color: black;
+}

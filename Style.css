@@ -26,5 +26,18 @@ body > header > nav > ul > li > a:hover {
 	background-color: #8a0008;
 }
 body > section > header > h2 {
-    background-color: red;
+	background-color: red;
+	color: white;
+}
+body > section > h4 {
+	background-color: red;
+	color: white;
+}
+ body > section > h5 {
+	background-color: red;
+	color: white;
+ }
+ body > section > h4 > a:visited {
+	background-color: red;
+	color: white;
 }

@@ -16,7 +16,7 @@ div[class^="col-"]{
 }
 div.col-1-1{width:100%; text-align: center;}
 div.col-1-2{width:50%;}
-div.col-1-3{width:33.3%; text-align: center;}
+div.col-1-3{width:33.3%;}
 div.col-1-4{width:25%;}
 div.col-1-8{width:12.5%;}
 div.col-7-8{width:87.5%;}
@@ -24,6 +24,12 @@ div.col-7-8{width:87.5%;}
 /* Image Styles */
 
 img{align-content: center;}
+
+/* Home Page Image Layout */
+
+section#PokemonImages{
+    padding-left: 5%;
+}
 
 /* Grid Outline Styles */
 div {

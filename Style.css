@@ -49,3 +49,7 @@ div.rotate {
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
+section img{
+	display: block;
+	border: 10em;
+}

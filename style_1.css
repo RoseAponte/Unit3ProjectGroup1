@@ -1,0 +1,12 @@
+/* Body Styles */
+html{
+	background-color: darkred
+}
+body{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+}

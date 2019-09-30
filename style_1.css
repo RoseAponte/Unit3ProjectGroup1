@@ -10,3 +10,9 @@ body{
 	max-width: 960px;
 	min-width: 640px;
 }
+nav a{
+	background-color: red;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}

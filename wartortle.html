@@ -11,63 +11,95 @@
         <meta charset="UTF-8">
         <title>PokePage - Wartortle</title>
         <link href="style_1.css" rel="stylesheet"/>
+        <link href="poke_grids.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body>       
         <header>
-            <nav>
-                <ul>
-                    <!--Used to link all the pages to the starters and to the home page-->
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div class="col-1-7"/>
+                <img src="eeveelogo.png" alt="Logo"
+                width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8"/>                
+                    <div class="row">
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="squirtle.html">Squirtle</a></li>
+                                </ul>
+                            </nav>    
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="charmander.html">Charmander</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="pokepage.html">Home</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    <div class="row">
+                        <h1>Wartortle</h1>
+                    </div>
+                <div class="row">
+            </div>
         </header>
-        <section>
-            <header>
-                <h2>Wartortle #8</h2>
-                <!--To get an image from a different folder yo must type in foldername/image-->
-                <img src="PokemonImages/wartortle1.png" alt="Wartortle1" width="300px" height="300px"/>
-                <img src="PokemonImages/wartortle2.png" alt="Wartortle" width="150px" height="150px"/>
-                <img src="PokemonImages/wartortle3.png" alt="Wartortle" width="150px" height="150px"/>
-                <P>
-                    <strong>Type:</strong> Water<br/>
-                    <strong>Counters:</strong> Grass
-                </p>
-            </header>
-                <br/>
-                <h4>About Wartortle</h4>
-                <p>
-                    Wartortle, the Turtle Pokémon. The evolved form of Squirtle. 
-                    Its long furry tail is a symbol of its age and wisdom.
-                </p>
-                <br/>
-                <h5>Stats</h5>
-                <p>
-                    HP: 59
-                    <br>
-                    Attack: 63
-                    <br>
-                    Defense: 80
-                    <br>
-                    Special Attack: 65
-                    <br>
-                    Special Defence: 80
-                    <br>
-                    Speed: 58
-                </p>
-                <br/>
-                <!--More is for the comunity to add there info to the website-->
-                <h5>More!</h5>
-                <p>
-
-                </p>
-                <br/>
-                <!--Links the page to the pokemons evolutions-->
-                <h4>Wartortle evolves into...<a href="blastoise.html"/>Blastoise!</a></h4>
-                <h4>Wartortle evolves from...<a href="squirtle.html"/>Squirtle!</a></h4>
-            </section>
-        </body>
-    </html>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Water
+                        </p>
+                    </div>
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Grass
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+                        HP: 59<br>
+                        Attack: 63<br>
+                        Defense: 80<br>
+                        Special Attack: 65<br>
+                        Special Defence: 80<br>
+                        Speed: 58
+                    </p>   
+                </div>
+            </div>
+            <div class="col-1-2">
+                    <img src="PokemonImages/wartortle1.png" alt="Wartortle1" width="300px" height="300px"/>
+                    <img src="PokemonImages/wartortle2.png" alt="Wartortle" width="150px" height="150px"/>
+                    <img src="PokemonImages/wartortle3.png" alt="Wartortle" width="150px" height="150px"/>
+            </div>
+        </div>
+        <div class="row">               
+            <p>
+                Wartortle, the Turtle Pokémon. The evolved form of Squirtle. 
+                Its long furry tail is a symbol of its age and wisdom.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-1-4"></div>
+            <div class="col-1-4"></div>
+            <div class="col-1-2"></div>
+        </div>
+        <div class="row">
+            <footer></footer>
+        </div>
+    </body>
+</html>

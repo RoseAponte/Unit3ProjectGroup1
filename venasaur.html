@@ -11,63 +11,97 @@
         <meta charset="UTF-8">
         <title>PokePage - Venusaur</title>
         <link href="style_1.css" rel="stylesheet"/>
+        <link href="poke_grids.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body>       
         <header>
-            <nav>
-                <!-- nav bar at the top to get to the other base pokemon -->
-                <ul>
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" 
-                width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div class="col-1-7"/>
+                    <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo"
+                    width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8"/>                
+                    <div class="row">
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="squirtle.html">Squirtle</a></li>
+                                </ul>
+                            </nav>    
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="charmander.html">Charmander</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="pokepage.html">Home</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    <div class="row">
+                        <h1>Venasaur</h1>
+                    </div>
+                <div class="row">
+            </div>
         </header>
-        <section>
-            <header>
-                <!-- First image is bigger than the other two -->
-                <h2>Venasaur #3</h2>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Grass/Poison
+                        </p>
+                    </div>
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Fire/Flying
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+                        HP: 80 <br>
+                        Attack: 82 <br>
+                        Defense: 83 <br>
+                        Special Attack: 100 <br>
+                        Special Defense: 100 <br>
+                        Speed: 80
+                    </p>   
+                </div>
+            </div>
+            <div class="col-1-2">
                 <img src="PokemonImages/venusaur1.png" alt="Venusaur" width="300px" length="300px">
                 <img src="PokemonImages/venusaur2.png" alt="Venusaur second img" width="150px" length="150px">
                 <img src="PokemonImages/venusaur3.png" alt="Venusaur third img" width="150px" length="150px">
-                <P>
-                    <!-- Males the words type and counter bold -->
-                    <strong>Type:</strong> Grass/Poison<br/>
-                    <strong>Counters:</strong> Fire/Flying
-                </p>
-            </header>
-                <br/>
-                <h4>About Venusaur</h4>
-                <p>
-                    Venusaur, the final form of the Bulbasaur’s evolution. This Seed Pokémon soaks up the
-                    sun's rays as a source of energy.
-                </p>
-                <br/>
-                <h5>Stats</h5>
-                <p>
-                    HP: 80
-                    <br>
-                    Attack: 82
-                    <br>
-                    Defense: 83
-                    <br>
-                    Special Attack: 100
-                    <br>
-                    Special Defense: 100
-                    <br>
-                    Speed: 80
-                </p>
-                <br/>
-                <h5>More!</h5>
-                <p>
-                    <!-- For community posts -->
-                </p>
-                <br/>
-                <!-- Links to the pokemon in the previous stage -->
+            </div>
+        </div>
+        <div class="row">               
+            <p>
+                Venusaur, the final form of the Bulbasaur’s evolution. This Seed Pokémon soaks up the
+                sun's rays as a source of energy.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-1-4">
                 <h4>Venusaur evolves from... <a href="ivysaur.html">Ivysaur!</a></h4>
-        </section>
+            </div>
+            <div class="col-1-4"></div>
+            <div class="col-1-2"></div>
+        </div>
+        <div class="row">
+            <footer></footer>
+        </div>
     </body>
 </html>

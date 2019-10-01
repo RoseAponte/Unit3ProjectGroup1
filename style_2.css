@@ -34,13 +34,11 @@ nav a:hover, nav a:active{
 header{
     text-align: center;
 }
-
-footer{
+/*This will change the footer*/
+div.row{
     text-align: center;
+    background-color: red;
 }
 div.col-1-1{
-    background-color: white;
-}
-div.col-2-1{
     background-color: white;
 }

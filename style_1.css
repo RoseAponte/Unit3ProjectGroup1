@@ -1,3 +1,12 @@
+@font-face{
+	font-family: pokemon;
+	src:url(pokemon.woff2) format('woff2'),
+    url(pokemon.woff) format('woff'),
+    url(pokemon.ttf) format('truetype');
+}
+
+
+
 /* Body Styles */
 html{
     background-color: rgb(218, 216, 216);
@@ -12,6 +21,7 @@ body{
 }
 div#pkmnName{
 	font-size: 2.5em;
+	font-family: pokemon, serif;
 }
 div#type, div#counters{
 	font-size: 2em;

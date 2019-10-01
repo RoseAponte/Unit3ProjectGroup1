@@ -11,53 +11,77 @@
         <meta charset="UTF-8">
         <title>PokePage - Ivysaur</title>
         <link href="style_1.css" rel="stylesheet"/>
+        <link href="poke_grids.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body>       
         <header>
-            <nav>
-                <ul>
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" 
-                width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div id="logo" class="col-1-7">
+                    <img src="eeveelogo.png" alt="Logo"
+                    width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8">
+                    <div id="topNav" class="row">
+                        <nav>
+                            <ul>
+                                <li><a href="squirtle.html">Squirtle</a></li>
+                                <li><a href="charmander.html">Charmander</a></li>
+                                <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                <li><a href="pokepage.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="pkmnName" class="row">
+                        <h2>Ivysaur</h2>
+                    </div>
+                </div>
+            </div>
         </header>
-        <section>
-            <header>
-                <h2>Ivysaur #2</h2>
-                <img src="PokemonImages/ivysaur1.png" alt="Ivysaur" width="300px" height="300px"/>
-                <img src="PokemonImages/ivysaur2 .png" alt="Lampysaur" width="150px" height="150px"/>
-                <img src="PokemonImages/ivysaur3.png" alt="Ibysaur" width="150px" height="150px"/>
-                <p>
-                    <strong>Type:</strong> Grass/Poison<br/>
-                    <strong>Counters:</strong> Fire/Flying
-                </p>
-            </header>
-                <br/>
-                <h4>About Ivysaur</h4>
-                <p>
-                    The Seed Pokémon, Ivysaur, Bulbasaur's evolved form. The
-                    bulb on its back absorbs nourishment and bloom into a 
-                    large flower.
-                </p>
-                <br/>
-                <h5>Stats</h5>
-                <p>
-                    HP: 60 <br/>
-                    Attack: 62 <br/>
-                    Defense: 63 <br/>
-                    Special Attack: 80 <br/>
-                    Special Defense: 80 <br/>
-                    Speed: 60 <br/>
-                </p>
-                <br/>
-                <h5>More!</h5>
-                <br/>
-                <h4>Ivysaur evolves into...<a href="venasaur.html">Venusaur!</a></h4>
-                <h4>Ivysaur evolves from...<a href="bulbasaur.html">Bulbasaur!</a></h4>
-        </section>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div id="type" class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Grass/Poison
+                        </p>
+                    </div>
+                    <div id="counters" class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Fire/Flying
+                        </p>
+                    </div>
+                </div>
+                <div id="stats" class="row">
+                    <p>
+                        HP: 60 <br/>
+                        Attack: 62 <br/>
+                        Defense: 63 <br/>
+                        Special Attack: 80 <br/>
+                        Special Defense: 80 <br/>
+                        Speed: 60 <br/>
+                    </p>   
+                </div>
+            </div>
+            <div id="pictures" class="col-1-2">
+                    <img src="PokemonImages/ivysaur1.png" alt="Ivysaur" width="300px" height="300px"/>
+                    <img src="PokemonImages/ivysaur2 .png" alt="Lampysaur" width="150px" height="150px"/>
+                    <img src="PokemonImages/ivysaur3.png" alt="Ibysaur" width="150px" height="150px"/>
+            </div>
+        </div>
+        <div id="summary" class="row">               
+            <p>
+                The Seed Pokémon, Ivysaur, Bulbasaur's evolved form. The
+                bulb on its back absorbs nourishment and bloom into a 
+                large flower.
+            </p>
+        </div>
+        <div class="row">
+            <div id="evo1" class="col-1-4"></div>
+            <div id="evo2" class="col-1-4"></div>
+            <div id="more" class="col-1-2"></div>
+        </div>
+        <footer>
+            <div class="row"></div>
+        </footer>
     </body>
 </html>

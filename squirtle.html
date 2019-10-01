@@ -11,62 +11,95 @@
         <meta charset="UTF-8">
         <title>PokePage - Squirtle</title>
         <link href="style_1.css" rel="stylesheet"/>
+        <link href="poke_grids.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body>       
         <header>
-            <nav>
-                <ul>
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div class="col-1-7"/>
+                <img src="eeveelogo.png" alt="Logo"
+                width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8"/>                
+                    <div class="row">
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="squirtle.html">Squirtle</a></li>
+                                </ul>
+                            </nav>    
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="charmander.html">Charmander</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-1-4"/>
+                            <nav>
+                                <ul>
+                                    <li><a href="pokepage.html">Home</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    <div class="row">
+                        <h1>Squirtle</h1>
+                    </div>
+                <div class="row">
+            </div>
         </header>
-        <!--
-            All of the information on the pokemon below this point was done on
-            September 3, 2019. On September 4th, I fixed the images and some 
-            additions and changes to the Nav Bar and stuff.
-        -->
-        <section>
-            <header>
-                <h2>Squirtle #7</h2>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Water
+                        </p>
+                    </div>
+                    <div class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Green
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+                        HP: 44<br />
+                        Attack: 48<br />
+                        Defense: 65<br />
+                        Special Attack: 50<br />
+                        Special Defense: 64<br />
+                        Speed: 43
+                    </p>   
+                </div>
+            </div>
+            <div class="col-1-2">
                 <img src="PokemonImages/squirtle1.png" alt="Squirtle" width="300px" height="300px"/>
                 <img src="PokemonImages/squirtle2.png" alt="Squirtle" width="150px" height="150px"/>
                 <img src="PokemonImages/squirtle3.png" alt="Squirtle" width="150px" height="150px"/>
-                <p>
-                    <strong>Type:</strong> Water <br />
-                    <strong>Counters:</strong> Grass
-                </p>
-            </header>
-            <br/>
-            <h4>About Squirtle</h4>
+            </div>
+        </div>
+        <div class="row">               
             <p>
                 Squirtle. This Tiny Turtle Pokémon draws its long neck into its shell to launch incredible water 
                 attacks with amazing range and accuracy. The blasts can be quite powerful.
             </p>
-            <br/>
-            <h5>Stats</h5>
-            <p>
-                HP: 44<br />
-                Attack: 48<br />
-                Defense: 65<br />
-                Special Attack: 50<br />
-                Special Defense: 64<br />
-                Speed: 43
-            </p>
-            <br/>
-            <h5>More!</h5>
-            <p>
-
-            </p>
-            <h4>Squirtle evolves into...<a href="wartortle.html">Wartortle!</a>
-            <br/>
-            <!--
-            Not sure why we put a more segment if we don't have any more info
-            but thanks anyway Mr. Peck. - Elijah Collins
-            -->
-        </section>
+        </div>
+        <div class="row">
+            <div class="col-1-4"></div>
+            <div class="col-1-4"></div>
+            <div class="col-1-2"></div>
+        </div>
+        <div class="row">
+            <footer></footer>
+        </div>
     </body>
 </html>

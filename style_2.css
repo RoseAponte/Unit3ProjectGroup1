@@ -11,6 +11,13 @@ body{
     max-width: 900px;
     min-width: 964px;
 }
+#intro{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+p#intro{
+    color: white;
+}
 div.col-7-8{
     background-color: red;
 }

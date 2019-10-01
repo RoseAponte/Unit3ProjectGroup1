@@ -23,7 +23,7 @@ div#stats{
 div#summary{
 	font-size: 1.5em;
 }
-div.col-1-4 a{
+div.col-1-4 a:link, a:visited{
 	text-decoration: none;
     color: black;
     display: block;
@@ -32,6 +32,15 @@ div.col-1-4 a{
     float: left;
 	width: 25%;
 }
+div.col-1-4 a:active, a:hover{
+	background-color: darkred;
+	color: white;
+	width: 100%;
+}
 div.col-1-4 ul{
 	list-style-type: none;
+}
+div.col-1-4{
+	background-color: red;
+	width: 100%;
 }

@@ -10,4 +10,16 @@ body{
 	max-width: 960px;
 	min-width: 640px;
 }
-
+div#pkmnName{
+	font-size: 2.5em;
+}
+div#type, div#counters{
+	font-size: 2em;
+}
+div#stats{
+	font-size: 1.5em;
+	text-align: center;
+}
+div#summary{
+	font-size: 1.5em;
+}

@@ -11,53 +11,76 @@
         <meta charset="UTF-8">
         <title>PokePage - Charmander</title>
         <link href="style_1.css" rel="stylesheet"/>
+        <link href="poke_grids.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body>       
         <header>
-            <nav>
-                <ul>
-                    <!--the nav will connect the pages together-->
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div id="logo" class="col-1-7">
+                    <img src="eeveelogo.png" alt="Logo"
+                    width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8">
+                    <div id="topNav" class="row">
+                        <nav>
+                            <ul>
+                                <li><a href="squirtle.html">Squirtle</a></li>
+                                <li><a href="charmander.html">Charmander</a></li>
+                                <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                <li><a href="pokepage.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="pkmnName" class="row">
+                        <h2>Charmander</h2>
+                    </div>
+                </div>
+            </div>
         </header>
-        <section>
-            <header>
-                <h2>Charmander #4</h2>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div id="type" class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Fire
+                        </p>
+                    </div>
+                    <div id="counters" class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Water
+                        </p>
+                    </div>
+                </div>
+                <div id="stats" class="row">
+                    <p>
+                        HP: 36 <br/>
+                        Attack: 52 <br/>
+                        Defense: 43 <br/>
+                        Special Attack: 60 <br/>
+                        Special Defense: 50 <br/>
+                        Speed: 65
+                    </p>   
+                </div>
+            </div>
+            <div id="pictures" class="col-1-2">
                 <img src="PokemonImages/charmander1.png" alt="Charmander" width="300px" height="300px"/>
                 <img src="PokemonImages/charmander2.png" alt="Charmander" width="150px" height="150px"/>
                 <img src="PokemonImages/charmander3.png" alt="Charmander" width="150px" height="150px"/>
-                <br/>
-                <p>
-                    <strong>Type:</strong> Fire<br/>
-                    <strong>Counters:</strong> Water
-                </p>
-            </header>
-            <br/>
-            <h4>About Charmander</h4>
+            </div>
+        </div>
+        <div id="summary" class="row">               
             <p>
                 Charmander. A flame burns on the tip of its tail from birth. 
                 It is said that a Charmander dies if its flame ever goes out.
             </p>
-            <br/>
-            <h5>Stats</h5>
-            <p>
-                <!--Everything should look the same as the other pages with stats or you can tell other people did it-->
-                HP: 36 <br/>
-                Attack: 52 <br/>
-                Defense: 43 <br/>
-                Special Attack: 60 <br/>
-                Special Defense: 50 <br/>
-                Speed: 65
-            </p>
-            <br/>
-            <h5>More!</h5>
-            <br/>
-            <h4>Charmander evolves into... <a href="charmeleon.html">Charmeleon!</a></h4>
-        </section>
+        </div>
+        <div class="row">
+            <div id="evo1" class="col-1-4"></div>
+            <div id="evo2" class="col-1-4"></div>
+            <div id="more" class="col-1-2"></div>
+        </div>
+        <footer>
+            <div class="row"></div>
+        </footer>
     </body>
 </html>

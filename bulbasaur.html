@@ -11,55 +11,79 @@
         <meta charset="UTF-8">
         <title>PokePage - Bulbasaur</title>
         <link href="style_1.css" rel="stylesheet"/>
-    </head>
-    <body>
+        <link href="poke_grids.css" rel="stylesheet"/>
+    </head>  
+    <body>       
         <header>
-            <nav>
-                <ul>
-                    <li><a href="squirtle.html">Squirtle</a></li>
-                    <li><a href="charmander.html">Charmander</a></li>
-                    <li><a href="bulbasaur.html">Bulbasaur</a></li>
-                    <li><a href="pokepage.html">Home</a></li>
-                </ul>
-            </nav>
-            <a href="pokepage.html"><img src="eeveelogo.png" alt="Logo" 
-                width="100px" height="100px" class="rotate"/></a>
+            <div class="row">
+                <div id="logo" class="col-1-7">
+                    <img src="eeveelogo.png" alt="Logo"
+                    width="100px" height="100px" class="rotate"/></a>
+                </div>
+                <div class="col-7-8">
+                    <div id="topNav" class="row">
+                        <nav>
+                            <ul>
+                                <li><a href="squirtle.html">Squirtle</a></li>
+                                <li><a href="charmander.html">Charmander</a></li>
+                                <li><a href="bulbasaur.html">Bulbasaur</a></li>
+                                <li><a href="pokepage.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="pkmnName" class="row">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
         </header>
-        <section>
-            <header>
-                <h2>Bulbasaur #1</h2>
+        <div class="row">
+            <div class="col-1-2">
+                <div class="row">
+                    <div id="type" class="col-1-2">
+                        <p>
+                            <strong>Type:</strong> Grass/Poison
+                        </p>
+                    </div>
+                    <div id="counters" class="col-1-2">
+                        <p>
+                            <strong>Counters:</strong> Fire/Flying
+                        </p>
+                    </div>
+                </div>
+                <div id="stats" class="row">
+                    <p>
+                        HP: 45 <br/>
+                        Attack: 49 <br/>
+                        Defense: 49 <br/>
+                        Special Attack: 65 <br/>
+                        Special Defense: 65 <br/>
+                        Speed: 45
+                    </p>   
+                </div>
+            </div>
+            <div id="pictures" class="col-1-2">
                 <img src="PokemonImages/bulbasaur1.png" alt="Bulbasaur" width="300px" height="300px">
                 <img src="PokemonImages/bulbasaur2.png" alt="Bulbysaur" width="150px" height="150px">
                 <img src="PokemonImages/bulbasaur3.png" alt="Bulbasaurrr" width="150px" height="150px">
-                <br/>
-                <p>
-                    <strong>Type:</strong> Grass/Poison<br/>
-                    <strong>Counters:</strong> Fire/Flying
-                </p>
-            </header>
-                <br/>
-                <h4>About Bulbasaur</h4>
-                <p>
-                    Bulbasaur. It bears the seed of a plant on its back from 
-                    birth. The seed slowly develops. Researchers are unsure 
-                    whether to classify Bulbasaur as a plant or animal. 
-                    Bulbasaur are extremely calm and very difficult to 
-                    capture in the wild.
-                </p>
-                <br/>
-                <h5>Stats</h5>
-                <p>
-                    HP: 45 <br/>
-                    Attack: 49 <br/>
-                    Defense: 49 <br/>
-                    Special Attack: 65 <br/>
-                    Special Defense: 65 <br/>
-                    Speed: 45
-                </p>
-                <br/>
-                <h5>More!</h5>
-                <br/>
-                <h4>Bulbasaur evolves into... <a href="ivysaur.html">Ivysaur!</a></h4>
-        </section>
+            </div>
+        </div>
+        <div id="summary" class="row">               
+            <p>
+                Bulbasaur. It bears the seed of a plant on its back from
+                birth. The seed slowly develops. Researchers are unsure
+                whether to classify Bulbasaur as a plant or animal.
+                Bulbasaur are extremely calm and very difficult to
+                capture in the wild.
+            </p>
+        </div>
+        <div class="row">
+            <div id="evo1" class="col-1-4"></div>
+            <div id="evo2" class="col-1-4"></div>
+            <div id="more" class="col-1-2"></div>
+        </div>
+        <footer>
+            <div class="row"></div>
+        </footer>
     </body>
 </html>

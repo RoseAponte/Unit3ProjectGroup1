@@ -27,9 +27,10 @@ div#pkmnName{
 	outline-color: black;
 	-webkit-text-stroke: 1px;
 	-webkit-text-stroke-color: rgb(0, 0, 200);
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-top:15px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
 }
 div#type, div#counters{
 	font-size: 2em;

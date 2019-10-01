@@ -22,6 +22,14 @@ body{
 div#pkmnName{
 	font-size: 2.5em;
 	font-family: pokemon, serif;
+	color:yellow;
+	font-weight: normal;
+	outline-color: black;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: rgb(0, 0, 200);
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 div#type, div#counters{
 	font-size: 2em;
@@ -43,7 +51,7 @@ div.col-1-4 a:link, a:visited{
 	width: 25%;
 }
 div.col-1-4 a:active, a:hover{
-	background-color: darkred;
+	background-color: hsla(300, 50%, 50%, .3);
 	color: white;
 	width: 100%;
 }

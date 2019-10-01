@@ -3,6 +3,7 @@
 
 html{
     background-color: white;
+    background-color: rgb(218, 216, 216);
 }
 body{
     background-color: white;
@@ -11,31 +12,36 @@ body{
     max-width: 900px;
     min-width: 964px;
 }
-nav{
+div.col-7-8{
     background-color: red;
 }
-nav a{
+div.col-7-8 a{
     text-decoration: none;
     color: white;
-}
-nav ul li{
-    list-style-type: none;
     display: block;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+    width: 25%;
+}
+div.col-7-8 ul li{
+    list-style-type: none;
 }
 nav a:hover, nav a:active{
     background-color: rgb(224, 14, 14);
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 header{
-    text-align: center
+    text-align: center;
 }
 
 footer{
     text-align: center;
+}
+div.col-1-1{
+    background-color: white;
+}
+div.col-2-1{
+    background-color: white;
 }

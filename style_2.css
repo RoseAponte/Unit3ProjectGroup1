@@ -38,6 +38,7 @@ header{
 div.row{
     text-align: center;
     background-color: red;
+    color: white;
 }
 div.col-1-1{
     background-color: white;

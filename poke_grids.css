@@ -28,7 +28,8 @@ img{align-content: center;}
 /* Home Page Image Layout */
 
 section#PokemonImages{
-    padding-left: 5%;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 /* Grid Outline Styles */

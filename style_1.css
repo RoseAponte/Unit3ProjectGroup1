@@ -1,6 +1,6 @@
 /* Body Styles */
 html{
-	background-color: darkred
+    background-color: rgb(218, 216, 216);
 }
 body{
 	background-color: white;
@@ -10,4 +10,12 @@ body{
 	max-width: 960px;
 	min-width: 640px;
 }
-
+nav.col-1-4 a{
+	text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+    width: 25%;
+}

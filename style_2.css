@@ -11,6 +11,13 @@ body{
     max-width: 900px;
     min-width: 964px;
 }
+#intro{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+p#intro{
+    color: white;
+}
 div.col-7-8{
     background-color: red;
 }
@@ -28,8 +35,8 @@ div.col-7-8 ul li{
 }
 nav a:hover, nav a:active{
     background-color: rgb(224, 14, 14);
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 header{
     text-align: center;
@@ -41,4 +48,9 @@ div.row{
 }
 div.col-1-1{
     background-color: white;
+}
+footer > p{
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
 }

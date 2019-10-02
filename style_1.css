@@ -73,4 +73,9 @@ div {
     outline-width: 1px;
     outline-style: solid;
     outline-color: black;
-    outline: 1px solid black;
+	outline: 1px solid black;
+}
+h1{
+	text-align: center;
+	padding-top: 25px;
+}

@@ -69,3 +69,8 @@ nav a:hover, nav a:active{
     padding-right: auto;
     padding-left: auto;
 }
+div {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: black;
+    outline: 1px solid black;

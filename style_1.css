@@ -34,10 +34,10 @@ body{
 	letter-spacing: 4px;
 }
 */
-div#type, div#counters{
-	font-size: 2em;
+div.col-1-2, div#type, div#counters{
+	font-size: 1.5em;
 }
-div#stats{
+div.col-1-2, div#stats{
 	font-size: 1.5em;
 	text-align: center;
 }

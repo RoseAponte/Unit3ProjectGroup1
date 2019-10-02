@@ -31,6 +31,7 @@ div#pkmnName{
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	text-align: center;
+	letter-spacing: 4px;
 }
 div#type, div#counters{
 	font-size: 2em;

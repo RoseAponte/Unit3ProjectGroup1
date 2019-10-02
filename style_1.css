@@ -19,7 +19,7 @@ body{
 	max-width: 960px;
 	min-width: 640px;
 }
-div#pkmnName{
+/*body > div.row > div.col-7-8 > div.row{
 	font-size: 2.5em;
 	font-family: pokemon, serif;
 	color:yellow;
@@ -33,6 +33,7 @@ div#pkmnName{
 	text-align: center;
 	letter-spacing: 4px;
 }
+*/
 div#type, div#counters{
 	font-size: 2em;
 }

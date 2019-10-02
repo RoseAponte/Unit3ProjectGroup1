@@ -44,24 +44,31 @@ div#stats{
 div#summary{
 	font-size: 1.5em;
 }
-div.col-1-4 a:link, a:visited{
-	text-decoration: none;
-    color: black;
+div.col-1-4{
+    background-color: red;
+}
+div.col-1-4 a{
+    text-decoration: none;
+    color: white;
     display: block;
     padding-top: 2px;
     padding-bottom: 2px;
     float: left;
-	width: 25%;
+    width: 25%;
 }
-div.col-1-4 a:active, a:hover{
-	background-color: hsla(300, 50%, 50%, .3);
-	color: white;
-	width: 100%;
+div.col-1-4 ul li{
+    list-style-type: none;
 }
-div.col-1-4 ul{
-	list-style-type: none;
+nav > ul > li > a{
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
 }
-div.col-1-4{
-	background-color: red;
-	width: 100%;
+nav a:hover, nav a:active{
+    background-color: rgb(206, 15, 15);
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
 }

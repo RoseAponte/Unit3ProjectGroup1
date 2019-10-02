@@ -37,6 +37,8 @@ nav a:hover, nav a:active{
     background-color: rgb(206, 15, 15);
     padding-top: auto;
     padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
 }
 header{
     text-align: center;

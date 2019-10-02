@@ -75,7 +75,7 @@ div {
     outline-color: black;
 	outline: 1px solid black;
 }
-h1{
+h1, h2{
 	text-align: center;
 	padding-top: 25px;
 }

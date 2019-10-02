@@ -33,9 +33,9 @@ section#PokemonImages{
 }
 
 /* Grid Outline Styles */
-div {
+/*div {
     outline-width: 1px;
     outline-style: solid;
     outline-color: red;
     outline: 1px solid red;
-}
+}*/

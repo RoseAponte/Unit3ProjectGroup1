@@ -36,12 +36,9 @@ body{
 */
 div.col-1-2, div#type, div#counters{
 	font-size: 1.5em;
-}
-div.col-1-2, div#stats{
-	font-size: 1.5em;
 	text-align: center;
 }
-div#summary{
+div.col-1div#summary{
 	font-size: 1.5em;
 }
 div.col-1-4 a:link, a:visited{

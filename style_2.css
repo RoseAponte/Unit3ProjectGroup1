@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-
+@font-face{
+    font-family: pokemon;
+    src:url(pokemon.woff2) format('woff2'),
+   url(pokemon.woff) format('woff'),
+   url(pokemon.ttf) format('truetype');
+}
 html{
     background-color: rgb(218, 216, 216);
 }
@@ -14,6 +19,17 @@ body{
 #intro{
     padding-top: auto;
     padding-bottom: auto;
+}
+h2#intro{
+    margin-top: 5px;
+    font-family: 'pokemon';
+    color:yellow;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(0,0,200);
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 p#intro{
     color: white;
@@ -32,6 +48,12 @@ div.col-7-8 a{
 }
 div.col-7-8 ul li{
     list-style-type: none;
+}
+nav > ul > li > a{
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
 }
 nav a:hover, nav a:active{
     background-color: rgb(206, 15, 15);
